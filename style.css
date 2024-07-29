@@ -1,0 +1,68 @@
+body{
+
+    font-family: Grandmaster;
+    background: white;
+}
+
+.sidebar{
+
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.9)), url("img/images.jpeg") center no-repeat;
+    background-size: cover;
+}
+.button-border{
+    border-bottom:1px groove white;
+}
+
+.sidebar-link{
+
+    transition: all .5s;
+}
+.sidebar-link:hover{
+
+    background-color: #444444;
+    border-radius: 5px;
+}
+
+.current{
+    background-color: #ff4433;
+    border-radius: 5px;
+    transition: all 1s;
+
+}
+.current:hover{
+
+    background-color: orangered;
+    border-radius: 5px;
+    transform: translateY(-1px);
+}
+.search-input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+@media (max-width: 765px) {
+    .sidebar{
+        position: static;
+        height: auto;
+    }
+    .top-navbar{
+  position: static;
+
+    }
+}
+
+.card-common{
+
+    box-shadow: 1px 2px 3px #999999;
+    transition: all .5s;
+}
+.card-common:hover{
+    box-shadow: 2px 5px 10px #999999;
+    transform: translateY(-10);
+}
+.task-border{
+
+
+    border-left: 3px solid #b62323;
+}
